@@ -1,0 +1,63 @@
+# Credentials & local secrets
+.credentials/*
+!.credentials/config.ini.example
+.env
+.env.*
+!.env.example
+
+# Vendor-specific specifications & docs (excluded from repo)
+docs/.*_docs/
+docs/spec_download.md
+
+# Generated outputs, exports & reports
+output/
+examples/**/output/
+data/
+*.tar
+**/*.report.html
+**/*_report.html
+**/firewall_upgrade/report*.html
+**/firewall_upgrade/report*.txt
+tamper_per_machines.csv
+audit_events.csv
+firewall_clusters_*.csv
+firewall_information_*.csv
+
+# Python / Packaging / Build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.installed.cfg
+*.egg
+
+# Virtual environments & caches
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Notebooks, IDEs & OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

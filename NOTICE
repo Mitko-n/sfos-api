@@ -1,0 +1,35 @@
+THIRD-PARTY SPECIFICATIONS AND TRADEMARK NOTICE
+=================================================
+
+1. Project License Scope (MIT)
+------------------------------
+The MIT License in the accompanying LICENSE file applies to the original source
+code, tests, example scripts/notebooks, developer scripts, and documentation
+authored for this project (`src/sfos_api/`, `tests/`, `examples/`, `scripts/`,
+`README.md`, and `docs/`, excluding third-party specifications listed below).
+
+2. Third-Party OpenAPI Specification
+------------------------------------
+The reference specification in `docs/.sophos_firewall_api_docs/firewall_config_openapi.yaml`
+is derived from Sophos documentation and remains the proprietary intellectual
+property of Sophos Ltd. (see the official Sophos Firewall API Reference at
+https://docs.sophos.com/nsg/sophos-firewall/rest-api/index.html).
+
+That file is included strictly as a local API reference and test fixture and
+is not covered by the project's MIT License. Redistributing or using Sophos
+documentation outside your authorized terms remains subject to Sophos Ltd.'s
+terms of use.
+
+3. Proprietary Credentials & Environment Data
+---------------------------------------------
+Any local credential files or environment-specific tenant inventories (such as
+`.credentials/config.ini` and tenant CSV files) contain proprietary or sensitive
+operational data, are excluded from source distribution, and are not covered by
+the MIT License.
+
+4. Trademarks & Non-Affiliation
+-------------------------------
+This project (`sfos-api`) is an independent, unofficial client library and is
+not affiliated with, endorsed by, sponsored by, or supported by Sophos Ltd.
+"Sophos" and "Sophos Firewall" are trademarks or registered trademarks of
+Sophos Ltd.
