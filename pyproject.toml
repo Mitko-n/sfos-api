@@ -82,7 +82,7 @@ ignore = ["E501"]
 "tests/**" = ["SIM300"]
 
 [tool.pyright]
-include = ["src/sfos_api", "examples", "tests"]
-extraPaths = ["src", "examples"]
+include = ["src/sfos_api", "tests"]
+extraPaths = ["src", "."]
 pythonVersion = "3.11"
 typeCheckingMode = "standard"
