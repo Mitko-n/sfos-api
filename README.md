@@ -7,7 +7,7 @@
 
 A  Python 3.11+ client for Sophos Firewall OS (SFOS) REST API using domain-grouped `StrEnum` classes.
 
-**Beta 0.8.0 API:** Endpoint definitions and documentation are checked against the bundled `Sophos Firewall Configuration OpenAPI specification` (corresponding to the official [Sophos Firewall API Reference](https://docs.sophos.com/nsg/sfos-api/rest-api/index.html)). Its metadata lists [Sophos Firewall APIs](https://developer.sophos.com) as the contact and identifies the document as OpenAPI 3.0.0 and API version 1.0.0. This repository does not record the upstream revision or retrieval date, so the file should not be assumed to be the latest release. Available operations may vary by firewall firmware.
+**Beta 0.8.0 API:** Endpoint definitions and documentation are checked against the bundled `Sophos Firewall Configuration OpenAPI specification` (corresponding to the official [Sophos Firewall API Reference](https://docs.sophos.com/nsg/sophos-firewall/rest-api/index.html)). Its metadata lists [Sophos Firewall APIs](https://developer.sophos.com) as the contact and identifies the document as OpenAPI 3.0.0 and API version 1.0.0. This repository does not record the upstream revision or retrieval date, so the file should not be assumed to be the latest release. Available operations may vary by firewall firmware.
 
 ---
 
@@ -142,5 +142,5 @@ ruff format --check .
 
 This project (`src/sfos_api/`, `tests/`, `examples/`, `scripts/`, `README.md`, and `docs/`) is licensed under the MIT License — see [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for full details.
 
-- **Third-Party API Specification**: `docs/.sophos_firewall_api_docs/firewall_config_openapi.yaml` is Sophos documentation from the [Sophos Firewall API Reference](https://docs.sophos.com/nsg/sfos-api/rest-api/index.html) and remains the property of **Sophos Ltd.** It is not covered by the repository's MIT License and is excluded from built Python wheels.
+- **Third-Party API Specification**: `docs/.sophos_firewall_api_docs/firewall_config_openapi.yaml` is Sophos documentation from the [Sophos Firewall API Reference](https://docs.sophos.com/nsg/sophos-firewall/rest-api/index.html) and remains the property of **Sophos Ltd.** It is not covered by the repository's MIT License and is excluded from built Python wheels.
 - **Trademarks & Non-Affiliation**: `sfos-api` is an independent, unofficial client library and is not affiliated with, endorsed by, or supported by Sophos Ltd. *Sophos* and *Sophos Firewall* are trademarks of Sophos Ltd.
